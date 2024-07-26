@@ -1,0 +1,20 @@
+{
+  "sauceLabsBackpack": "[data-test=\"item-4-title-link\"] > [data-test=\"inventory-item-name\"]",
+  "sauceLabsFleeceJacket": "[data-test=\"item-5-title-link\"] > [data-test=\"inventory-item-name\"]",
+  "sauceLabsOnesie": "[data-test=\"item-2-title-link\"] > [data-test=\"inventory-item-name\"]",
+  "addToCartButtonBackpack": "[data-test=\"add-to-cart-sauce-labs-backpack\"]",
+  "addToCartButtonFleeceJacket": "[data-test=\"add-to-cart-sauce-labs-fleece-jacket\"]",
+  "addToCartButtonOnesie": "[data-test=\"add-to-cart-sauce-labs-onesie\"]",
+  "removeFromCartButtonBackpack": "[data-test=\"remove-sauce-labs-backpack\"]",
+  "removeFromCartButtonFleeceJacket": "[data-test=\"remove-sauce-labs-fleece-jacket\"]",
+  "removeFromCartButtonOnesie": "[data-test=\"remove-sauce-labs-onesie\"]",
+  "navigateToCart": "[cy.get('[data-test=\"shopping-cart-link\"]')]",
+  "sauceLabsBackpackImg": "[data-test=\"inventory-item-sauce-labs-backpack-img\"]",
+  "sauceLabsBikeLightImg": "[data-test=\"inventory-item-sauce-labs-bike-light-img\"]",
+  "sauceLabsBoltTshirtImg": "[data-test=\"inventory-item-sauce-labs-bike-light-img\"]",
+  "sauceLabsFleeceJacketImg": "[data-test=\"inventory-item-sauce-labs-bike-light-img\"]",
+  "sauceLabsOnesieImg": "[data-test=\"inventory-item-sauce-labs-onesie-img\"]",
+  "sauceLabsRedShirtImg": "[data-test=\"inventory-item-test.allthethings()-t-shirt-(red)-img\"]",
+  "itemNameSelector": "[data-test=\"inventory-item-name\"]",
+  "itemPriceSelector": "[data-test=\"inventory-item-price\"]"
+}
