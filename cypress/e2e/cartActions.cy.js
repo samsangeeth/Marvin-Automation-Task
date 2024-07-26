@@ -33,7 +33,7 @@ describe('Cart Actions Test Suite', () => {
       data.totalitems = cartTotalItems++;
       cy.log(data.totalitems);
       cy.writeFile("cypress/fixtures/cartDetails.json", JSON.stringify(data));
-      cy.get('[data-test="shopping-cart-badge"]').invoke('text').then(current_cart_count => expect(current_cart_count).to.eq(JSON.stringify(data.totalitems)))
+      cy.get('[data-test="shopping-cart-badge"]').invoke('text').then(current_cart_count => expect(current_cart_count).to.eq(JSON.stringify(data.totalitems))) //Verify the current cart count matches the totalitems counter implemented
     });
 
     //Add 'Sauce Labs Fleece Jacket' to cart
@@ -48,7 +48,7 @@ describe('Cart Actions Test Suite', () => {
       data.totalitems = cartTotalItems++;
       cy.log(data.totalitems);
       cy.writeFile("cypress/fixtures/cartDetails.json", JSON.stringify(data));
-      cy.get('[data-test="shopping-cart-badge"]').invoke('text').then(current_cart_count => expect(current_cart_count).to.eq(JSON.stringify(data.totalitems)))
+      cy.get('[data-test="shopping-cart-badge"]').invoke('text').then(current_cart_count => expect(current_cart_count).to.eq(JSON.stringify(data.totalitems)))  //Verify the current cart count matches the totalitems counter implemented
 
     });
 
@@ -64,7 +64,7 @@ describe('Cart Actions Test Suite', () => {
       data.totalitems = cartTotalItems++;
       cy.log(data.totalitems);
       cy.writeFile("cypress/fixtures/cartDetails.json", JSON.stringify(data));
-      cy.get('[data-test="shopping-cart-badge"]').invoke('text').then(current_cart_count => expect(current_cart_count).to.eq(JSON.stringify(data.totalitems)))
+      cy.get('[data-test="shopping-cart-badge"]').invoke('text').then(current_cart_count => expect(current_cart_count).to.eq(JSON.stringify(data.totalitems)))  //Verify the current cart count matches the totalitems counter implemented
     });
 
     //Navigate to the Cart page
@@ -91,7 +91,7 @@ describe('Cart Actions Test Suite', () => {
       data.totalitems = cartTotalItems;
       cy.log(data.totalitems);
       cy.writeFile("cypress/fixtures/cartDetails.json", JSON.stringify(data));
-      cy.get('[data-test="shopping-cart-badge"]').invoke('text').then(current_cart_count => expect(current_cart_count).to.eq(JSON.stringify(data.totalitems)))
+      cy.get('[data-test="shopping-cart-badge"]').invoke('text').then(current_cart_count => expect(current_cart_count).to.eq(JSON.stringify(data.totalitems)))  //Verify the current cart count matches the totalitems counter implemented
     });
 
     //Remove 'Sauce Labs Backpack' from the cart    
@@ -107,7 +107,7 @@ describe('Cart Actions Test Suite', () => {
       data.totalitems = cartTotalItems;
       cy.log(data.totalitems);
       cy.writeFile("cypress/fixtures/cartDetails.json", JSON.stringify(data));
-      cy.get('[data-test="shopping-cart-badge"]').invoke('text').then(current_cart_count => expect(current_cart_count).to.eq(JSON.stringify(data.totalitems)))
+      cy.get('[data-test="shopping-cart-badge"]').invoke('text').then(current_cart_count => expect(current_cart_count).to.eq(JSON.stringify(data.totalitems)))  //Verify the current cart count matches the totalitems counter implemented
     });
 
     //Add 'Sauce Labs Backpack' to cart
@@ -122,7 +122,7 @@ describe('Cart Actions Test Suite', () => {
       data.totalitems = cartTotalItems + 1;
       cy.log(data.totalitems);
       cy.writeFile("cypress/fixtures/cartDetails.json", JSON.stringify(data));
-      cy.get('[data-test="shopping-cart-badge"]').invoke('text').then(current_cart_count => expect(current_cart_count).to.eq(JSON.stringify(data.totalitems)))
+      cy.get('[data-test="shopping-cart-badge"]').invoke('text').then(current_cart_count => expect(current_cart_count).to.eq(JSON.stringify(data.totalitems)))  //Verify the current cart count matches the totalitems counter implemented
     });
 
     //Navigate to the Cart page
@@ -152,7 +152,7 @@ describe('Cart Actions Test Suite', () => {
       data.totalitems = cartTotalItems++;
       cy.log(data.totalitems);
       cy.writeFile("cypress/fixtures/cartDetails.json", JSON.stringify(data));
-      cy.get('[data-test="shopping-cart-badge"]').invoke('text').then(current_cart_count => expect(current_cart_count).to.eq(JSON.stringify(data.totalitems)))
+      cy.get('[data-test="shopping-cart-badge"]').invoke('text').then(current_cart_count => expect(current_cart_count).to.eq(JSON.stringify(data.totalitems)))  //Verify the current cart count matches the totalitems counter implemented
     });
 
     //Add 'Sauce Labs Fleece Jacket' to cart
@@ -167,7 +167,7 @@ describe('Cart Actions Test Suite', () => {
       data.totalitems = cartTotalItems++;
       cy.log(data.totalitems);
       cy.writeFile("cypress/fixtures/cartDetails.json", JSON.stringify(data));
-      cy.get('[data-test="shopping-cart-badge"]').invoke('text').then(current_cart_count => expect(current_cart_count).to.eq(JSON.stringify(data.totalitems)))
+      cy.get('[data-test="shopping-cart-badge"]').invoke('text').then(current_cart_count => expect(current_cart_count).to.eq(JSON.stringify(data.totalitems)))  //Verify the current cart count matches the totalitems counter implemented
 
     });
 
@@ -183,7 +183,7 @@ describe('Cart Actions Test Suite', () => {
       data.totalitems = cartTotalItems++;
       cy.log(data.totalitems);
       cy.writeFile("cypress/fixtures/cartDetails.json", JSON.stringify(data));
-      cy.get('[data-test="shopping-cart-badge"]').invoke('text').then(current_cart_count => expect(current_cart_count).to.eq(JSON.stringify(data.totalitems)))
+      cy.get('[data-test="shopping-cart-badge"]').invoke('text').then(current_cart_count => expect(current_cart_count).to.eq(JSON.stringify(data.totalitems)))  //Verify the current cart count matches the totalitems counter implemented
     });
 
     //Navigate to the Cart page
@@ -223,7 +223,7 @@ describe('Cart Actions Test Suite', () => {
       data.totalitems = cartTotalItems++;
       cy.log(data.totalitems);
       cy.writeFile("cypress/fixtures/cartDetails.json", JSON.stringify(data));
-      cy.get('[data-test="shopping-cart-badge"]').invoke('text').then(current_cart_count => expect(current_cart_count).to.eq(JSON.stringify(data.totalitems)))
+      cy.get('[data-test="shopping-cart-badge"]').invoke('text').then(current_cart_count => expect(current_cart_count).to.eq(JSON.stringify(data.totalitems)))  //Verify the current cart count matches the totalitems counter implemented
     });
 
     //Add 'Sauce Labs Fleece Jacket' to cart
@@ -238,7 +238,7 @@ describe('Cart Actions Test Suite', () => {
       data.totalitems = cartTotalItems++;
       cy.log(data.totalitems);
       cy.writeFile("cypress/fixtures/cartDetails.json", JSON.stringify(data));
-      cy.get('[data-test="shopping-cart-badge"]').invoke('text').then(current_cart_count => expect(current_cart_count).to.eq(JSON.stringify(data.totalitems)))
+      cy.get('[data-test="shopping-cart-badge"]').invoke('text').then(current_cart_count => expect(current_cart_count).to.eq(JSON.stringify(data.totalitems)))  //Verify the current cart count matches the totalitems counter implemented
 
     });
 
@@ -254,7 +254,7 @@ describe('Cart Actions Test Suite', () => {
       data.totalitems = cartTotalItems++;
       cy.log(data.totalitems);
       cy.writeFile("cypress/fixtures/cartDetails.json", JSON.stringify(data));
-      cy.get('[data-test="shopping-cart-badge"]').invoke('text').then(current_cart_count => expect(current_cart_count).to.eq(JSON.stringify(data.totalitems)))
+      cy.get('[data-test="shopping-cart-badge"]').invoke('text').then(current_cart_count => expect(current_cart_count).to.eq(JSON.stringify(data.totalitems))) //Verify the current cart count matches the totalitems counter implemented
     });
 
     //Navigate to the Cart page    

@@ -60,7 +60,7 @@ The following is the folder structure of the code base:
 
 - All the spec files created are listed under the `e2e` folder.
 - The `pages` folder contains the objects for each individual page of the application wrt to POM.
-- The `util` folfer contains genericFunction and other generic actions that can be used throught the project.
+- The `util` folder contains genericFunction and other generic actions that can be used throught the project.
 - All the custom commands implemented are added under `commands.js`.
 - The `cypress.env.json` file has been created to handle all the environment variables.
 
@@ -69,15 +69,15 @@ The following is the folder structure of the code base:
 
 ## Spec Files
 
-- cartActions.cy.js
+- `cartActions.cy.js`
 Test suite contains automation for all actions related to cart activities (Adding contents to the cart, Removing contents from the cart, Verify cart count gets updated after adding and removing items, Verify correct items are added to cart, Successful checkout, Unsuccessful checkout and other error message validations) 
 
-- loginAndLogout.cy.js
+- `loginAndLogout.cy.js`
 Test suite contains automation for all actions related to login and logout (Successful login, Successful logout and error message validations for invalid login credentials)
 
-- menuNavigation.cy.js
+- `menuNavigation.cy.js`
 Test suite contains automation for all actions related to menu navigation (Navigate through every page listed in the application including the detailed product page for each individual product, Verify the details listed for each product are displayed correctly, Reset app state action, etc.)
 
-- productsSorting.cy.js
+- `productsSorting.cy.js`
 Test suite contains automation for all actions related to product sorting (Implement all possible sorting scenarios and verify the listed items are sorted correctly)
 
